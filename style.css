@@ -1,0 +1,53 @@
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --colorprincipal: rgb(48, 163, 174);
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8rem;
+  background-color: black;
+}
+
+.navbar {
+  background-color: var(--colorprincipal);
+  text-decoration-color: azure;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+hr {
+  color: var(--colorprincipal);
+  width: 97%;
+
+}
+.logo-estilo {
+  height: 3rem;
+}
+.color-faw {
+  background-color: var(--colorprincipal);
+}
+
+.carta-imagen {
+  background-color: black;
+}
+
+.carta-imagen img {
+  height: 15em;
+  overflow-x: hidden;
+  object-fit: cover;
+}
+
+.carta-imagen .card-body {
+  background-color: var(--colorprincipal);
+}
+
+footer {
+  background-color: var(--colorprincipal);
+}
